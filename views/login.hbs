@@ -1,0 +1,12 @@
+<div class="container">
+    <form action="/login" method="post" class="login-form">
+      <h1>Account Login</h1>
+      <input type="text" placeholder="Email" name="email" required> 
+      <input type="text" placeholder="Passwords" name="password" required>
+      <button type="submit">Sing in</button>
+    </form>
+    <div>
+      <h3>{{ errorMessage }}</h3>
+    </div>
+</div>
+
