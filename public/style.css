@@ -44,3 +44,22 @@
 h3{
   color: red;
 }
+
+a{
+  text-decoration: none;
+  color: black;
+  background-color:#eee;
+
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+
+  border: 1px solid black;
+  width: 75px;
+  height: 30px;
+}
+
+a:hover{
+  color: white;
+  background-color: black;
+}
